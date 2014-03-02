@@ -1,7 +1,9 @@
 ODP-IP
 ======
 
-Exact Algorithms for "Complete Set Partitioning" (i.e., for "Coalition Structure Generation")
+Exact Algorithms for "Complete Set Partitioning" (i.e., for "Coalition Structure Generation").
+
+To download the project, click on the "Download ZIP" button. It will take a while to download the 6.5 MB file.
 
   * This code contains implementations of the following algorithms: IP, ODP-IP, DP, ODP, and IDP (which is the size version of ODP)
 
