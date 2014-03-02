@@ -16,11 +16,9 @@ Exact Algorithms for "Complete Set Partitioning" (i.e., for "Coalition Structure
   * file format:
       - if you want to read the subset values from a file, it should be stored in a text file, where every line contains the value of one subset. Here is an example for the contnt of such a file, given 4 agents (i.e., 4 elements):
 
-0
-
-30
-
-40
+0\\
+30\\
+40\\
 50
 25
 60
