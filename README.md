@@ -55,3 +55,5 @@ For example, assume we have the following four agents (or elements): {a1,a2,a3,a
 140	is the value of the subset represented by	15 = 1111	which is {a1,a2,a3,a4}  
 
 The optimal solution to this problem is the following partition: {{a1}, {a2}, {a3,a4}}. The value of this partition is: v({a1})+v({a2})+v({a3,a4}) = 150
+
+License: All source files are made available under the terms of the GNU General Public License (GPL).
