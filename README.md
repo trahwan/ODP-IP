@@ -3,19 +3,17 @@ ODP-IP
 
 Exact Algorithms for "Complete Set Partitioning" (i.e., for "Coalition Structure Generation")
 
-Exact algorithms to solve the complete set partitioning problem.
+  * This code contains implementations of the following algorithms: IP, ODP-IP, DP, ODP, and IDP (which is the size version of ODP)
 
-  - This code contains implementations of the following algorithms: IP, ODP-IP, DP, ODP, and IDP (which is the size version of ODP)
+  * For more on the optimization problem itself, or the algorithms, see: http://www.cs.ox.ac.uk/files/5616/CS-RR-13-09.pdf
 
-  - For more on the optimization problem itself, or the algorithms, see: http://www.cs.ox.ac.uk/files/5616/CS-RR-13-09.pdf
-
-  - The two main, executable java classes are the following (both come with a graphical user interface (GUI)):
+  * The two main, executable java classes are the following (both come with a graphical user interface (GUI)):
 
       - SolveRandomProblems.java: This allows the user to experiment with the different algorithms with randomly-generated problem instances.
 
       - SolverParticularProblem.java: This allows the user to solver a particular problem, where the values of different coalitions (i.e., subsets) are stored in a file. Below are more details on the format of the file.
 
-  - file format:
+  * file format:
       - if you want to read the subset values from a file, it should be stored in a text file, where every line contains the value of one subset. Here is an example for the contnt of such a file, given 4 agents (i.e., 4 elements):
 
 0
